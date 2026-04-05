@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Resetting the box model to prevent layout shifts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  overflow-x: hidden; /* Prevents horizontal scroll during car animation */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom class for the premium tracking requested */
+.letter-spaced {
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+}
